@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    max-width: 1000vh;
+    background-image: url(img/Fundo-doce.jpg);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.folha-receita{
+    max-width: 500px;
+    max-height: 700px;
+    background-color: rgba(250, 148, 241, 0.192);
+  margin: auto;
+  overflow: auto;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
+}
+
+
+/* cabecalho */
+
+
+header h1{
+
+    text-align: center;
+    align-items: center;
+    font-size: 20px;    
+    color: black;
+    font-weight: bold;
+
+}
+header h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    font-size: 15px;
+    color: brown;
+}
+
+header .img-bolo{
+    display: flex;
+    width: 90%;
+     margin: auto;
+    
+       
+}
+
+/* Conteudo Principal*/
+ 
+/*ingredientes*/
+
+
+#ingredientes h3{
+    color: brown;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+
+#ingredientes p{
+line-height: 30px;
+padding: 0px 10px;
+font-size: 15px;
+}
+
+
+/*receita do bolo*/
+
+
+#modo-de-fazer ul {
+
+    list-style: none;
+   
+}
+#modo-de-fazer  ul li{
+    line-height: 30px;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+
+

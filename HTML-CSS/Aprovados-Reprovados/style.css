@@ -1,0 +1,33 @@
+h1{
+
+padding: 30px 0px ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    
+
+}
+ul li{
+    padding:  10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.aprovados li{
+
+    color: green;
+}
+
+.reprovados li{
+
+    color: red;
+}
+
+
