@@ -3,18 +3,20 @@
     margin: 0;
 }
 body,html{
-    max-width: 1000vh;
+    max-width: 1000vw;
     background-image: url(img/Fundo-doce.jpg);
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .folha-receita{
-    max-width: 500px;
-    max-height: 700px;
+    font-weight: bold;
+    font-weight: normal;
+    width: 500px; 
     background-color: rgba(250, 148, 241, 0.192);
-  margin: auto;
+     margin: 20px auto;
   overflow: auto;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
+  padding: 17px;
 }
 
 
@@ -74,7 +76,7 @@ font-size: 15px;
    
 }
 #modo-de-fazer  ul li{
-    line-height: 30px;
+    line-height: 23px;
     align-items: center;
     font-size: 15px;
 }
