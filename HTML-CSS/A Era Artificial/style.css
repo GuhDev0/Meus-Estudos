@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artificial-cabecalho,
+.conteudo-center{
+    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.123); 
+}
+
+
+.artificial-cabecalho p,
+.conteudo-center p,
+.rodape-container{
+    line-height: 30px;
+    width: 1000px;
+
+}
+
+
+
+
+/* Conteudo Superior da Pagina -- cabecalho*/
+
+.artificial-cabecalho h1{
+    font-size: 30px;
+    padding-top: 10px;
+} 
+.artificial-cabecalho img{
+    width: 20%;
+    
+}
+.artificial-cabecalho h2{
+    font-size: 20px;
+    
+}
+/*conteudo Central*/
+.conteudo-center h3{
+
+    padding-top: 50px ;
+}
+.conteudo-center aside p{
+
+    padding-bottom: 50;
+
+   
+}
+
+/*RODAPE*/
+.rodape-container p {
+    padding-top: 50px;
+
+
+}
+
+/* BOTÃO*/
+
+.btn-comprar{
+
+background-color: #49b96f;
+padding: 10px 40px;
+border-radius: 20px;
+border: none;
+margin: 5px 0px 50px 0px;
+}
+.btn-comprar a{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
