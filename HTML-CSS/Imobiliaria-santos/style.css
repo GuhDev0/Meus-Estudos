@@ -1,29 +1,158 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
 
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-
-}
 
 /*
 cabecalho
 */
-
+header{
+    background-color: #B0DDFC;
+    
+}
  header ul a{
     text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    
  }
 header ul{
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+      list-style: none;
+    justify-content: center ;
+    padding: 10px 10px 40px 10px;
+}
+
+header .logo-imobiliaria{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+/*CONTEUDO PRINCIPAL*/
+
+main  img
+{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 50px 0px
+}
+main section img{
+    width: 30%;
+}
+main section{
+    text-align: center;
+}
+main section h1{
     
+    font-size: 35px;
+}
+main section h2{
+    font-size: 23px;
+    color: #0093fc;
+    font-weight: lighter;
+}
+main section p{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+main section p span{
+    font-weight: bold;
+    color: #0068b3;
+}
 
+main aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1d80c1;
+    color: white;
+    margin: 30px 0px;
+    padding: 30px;
+}
+main aside h3{
+padding: 20px;
+font-size: 40px;
+}
+main aside p{
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+main aside span{
+    color: #fbff01;
+}
+main aside ul  {
+    font-size: 20px;
+    line-height: 30px;
+    align-items: baseline;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.secao-corretor h3{
+    font-size: 35px;
+    color: #0068b3;
+    
+}
+.secao-corretor img{
+    width: 40%;
+}
+.secao-corretor p{
+font-size: 18px;
+text-align: justify;
+width: 78%;
+}
 
+/*FOOTER*/
+
+footer{
+    background-color: #1d80c1;
+}
+footer h3{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+footer iframe{
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 350px;
+    padding: 35px;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    background-color: #1d1d1d;
+    width: 70%;
+    align-items: center;
+margin: auto;
+padding: 15px;}
+footer span{
+    color: #fbff01;
+}
+
+footer nav ul {
+    line-height: 30px;
+    text-align: center;
+    padding: 35px   ;
+    list-style: none;
+}footer nav ul li a{
+    font-size: 18px;
+    color: #0093fc;
+    background-color: white;
 }
