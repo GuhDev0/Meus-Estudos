@@ -1,0 +1,122 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.secao-backgorund-divisao{
+    
+        padding: 50px 0;
+        text-align: center;
+        background-image: url('img/fundo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+.secao-backgorund-divisao h3{
+    border-radius: 20px;
+    display: inline;
+    padding: 5px 20px;
+    font-weight: 800;    
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+.largura-limitada{
+    margin: 0 auto;
+    width: 800px;
+    
+}
+
+.secao-conteudo {
+    padding: 50px 20px;
+  }
+
+
+
+/* TOPO */
+.secao-top{
+    padding: 20px;
+}
+.secao-top p{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left:300px;   
+}
+
+/*BANNER */
+.background-capa-top{
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    min-height: 450px;
+    background-position: top;
+
+    
+}
+.background-capa-top .container-titulo{
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-size: 20px;   
+}
+
+
+/*MAIN*/
+
+/*SEÇÃO 1*/
+
+.secao-main-one h3,
+.secao-main-two h3,
+.secao-contato h3{
+    font-size: 22px;
+    font-weight: 750;
+}
+.secao-main-one p,
+.secao-main-two p,
+.secao-contato p{
+    text-align: justify;
+    align-items: center;
+    width: 750px;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+.secao-main-one span{
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.39);   
+    border-left: 2px solid  black;
+   
+}
+
+
+.secao-main-one .img-conteudo{
+    display: flex;
+    gap: 15px;
+}
+.secao-main-one .img-conteudo img{
+    width: 30%; 
+    
+}
+
+/*SEÇÃO 2*/ 
+
+.secao-main-two,
+.secao-contato {
+
+padding-left: 30%;
+} 
+
+/*FOOTER*/
+
+.secao-contato{
+    line-height: 22px;
+
+}
+.secao-contato h3{
+    
+    padding: 10px 100px 10px 0px;
+}
+
+
+
