@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.largura-limite{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+:root{
+
+    --colorPrincipal:#4711c1;  
+    --color-black: #212121;
+
+}
+
+html,body{
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.cabecalho
+,footer{
+width: 100%;
+background-color: var(--colorPrincipal);
+font-size: 16px;
+color: #fff;
+padding: 20px 0;
+}
+.cabecalho div{
+    margin: 0 auto ;
+    width: 100%;
+    max-width: 1024px; 
+    display: flex;
+    align-items: center;
+}
+.cabecalho .header-button{
+    margin: 0 30px ;
+
+}
+
+.cabecalho a{
+    background-color: #fff;
+    padding: 7px  15px;
+    border-radius: 20px;
+    color: var(--colorPrincipal) ;
+    margin: 0 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*
+Conteudo Principal
+*/
+
+
+/*SECTION ONE*/
+main .img-capa{
+    width: 100%;
+}
+
+main .section-one p{
+width: 100%;
+line-height: 35px;
+text-align: justify;
+
+}
+
+main .section-one h2{
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0 ;
+}
+main .section-one img{
+display: block;
+margin: auto;
+width: 100%;
+}
+
+/*SECTION TWO*/
+
+.section-two p{
+
+margin:  20px auto;
+}
+.galeria{
+display: flex;
+margin : 0 auto 20px auto;
+overflow-x: scroll;
+
+}
+.section-two .galeria img{
+
+    width: 315px;
+    margin:10px;
+    box-shadow: 10px 10px 10px #959595;
+}
+
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
