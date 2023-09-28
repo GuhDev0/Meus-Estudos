@@ -88,14 +88,15 @@ margin:  20px auto;
 .galeria{
 display: flex;
 margin : 0 auto 20px auto;
-overflow-x: scroll;
+overflow-x: scroll ;
 
 }
 .section-two .galeria img{
 
     width: 315px;
     margin:10px;
-    box-shadow: 10px 10px 10px #959595;
+    box-shadow: 100px 10px 0px #959595 ;
+
 }
 
 

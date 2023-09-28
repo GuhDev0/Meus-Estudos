@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+
+/*
+PALETAS DE CORES
+*/
+
+:root {
+    --color-primary: #c4a47c;
+    --color-black: #000000;
+    --color-white:#fff;
+    --color-gray:#666;
+    --color-matte-gray:#ACACAC;
+}
+
+
+
+
+
