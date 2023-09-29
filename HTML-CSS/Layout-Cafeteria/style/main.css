@@ -17,8 +17,16 @@
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
 
+}
+main .banner h1{
+    color: var(--color-white);
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .container-text{
@@ -46,4 +54,44 @@ main .container-img01{
     height: 100vh;
     background-size: cover;
     background-image: url(../Imagens/parallax-imagem2.jpg);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+main .container-img01 h3,
+main .container-img02 h3,
+main .contatos .container-img03 h3
+
+{
+        color: var(--color-white);
+        background-color: var(--color-segundaria);
+        padding: 5px 40px;
+        font-weight: 550;
+        font-size: 20px;
+}
+ main  .container-img02{
+
+background-image: url(../Imagens/parallax-imagem3.jpg);
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+ main .contatos .container-img03{
+
+background-image: url(../Imagens/parallax-imagem4.png);
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+
+ }
+
+
+
+
+

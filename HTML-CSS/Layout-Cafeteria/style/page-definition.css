@@ -33,12 +33,24 @@ font-family: sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
+
+main .banner h1{
+
+    font-family: 'fraunces' ;
+}
+
 main h2{
     font-family: 'Oswald' , sans-serif;
 }
 main .text{
 
     font-family: 'Lato',sans-serif  ;
+}
+
+main .container-img01 h3,
+main .container-img02 h3,
+main .container-img03 h3{
+    font-family: 'fraunces';
 }
 
 
