@@ -9,22 +9,35 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
+
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-       <img src="Imagens/logo.ico" alt="img-logo">
+    <header class="cabecalho">
+       <img class="logo-img" src="Imagens/logo.ico" alt="img-logo">
         <nav>
             <ul>
-                <li>INFORMAÇÕES</li>
-                <li>CONTATOS</li>
-                <li>HORÁRIOS</li>
+                <li><a href="#informacoes">INFORMAÇÕES</a></li>
+                <li><a href="#contatos">CONTATOS</a></li>
+                <li><a href="#horarios">HORÁRIOS</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="banner">
+            <div class="container-titulo"> 
+                
+                        <h1>
+                            MANHATTAN - COFFEE HOUSE
+                        </h1>
+                
+            </div>
         </div>
-        <section class="container-text">
+        <section id="informacoes " class="container-text limite-largura">
             
 <h2>EXPERIMENTE O MELHOR CAFÉ DA CIDADE!</h2>
 
@@ -45,7 +58,7 @@
         <div class="container-img01">
 
         </div>
-        <section class="container-text">
+        <section class="container-text ">
             <h3>
                 Um bom café é motivo de alegria!
 
@@ -54,10 +67,10 @@
         <div class="container-img02">
 
         </div>
-        <section class="container-text">
+        <section class="container-text  limite-largura">
             <h2>O QUE É O CAFÉ MANHATTAN?</h2>
 
-Parágrafo:
+
 <p class="text">
     Segundo a Metodologia de Avaliação Sensorial da SCA (Specialty Coffee
     Association), usada no mundo todo, um café especial é todo aquele que
@@ -73,7 +86,7 @@ Parágrafo:
 </p>
         </section>
         <div class="container-img03" >
-            <aside class="contatos">
+            <aside id="contatos" class="contatos">
                 <h2>
                     Contatos & Endereço
                 </h2>
@@ -86,7 +99,7 @@ Parágrafo:
             </aside>
         </div>
         <div class="container-img04">
-            <aside class="horarios">
+            <aside id="horarios" class="horarios">
                 <h2>
                     HORÁRIOS DE FUNCIONAMENTO
                 </h2> 

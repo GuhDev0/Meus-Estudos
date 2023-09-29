@@ -1,0 +1,35 @@
+.cabecalho{
+width: 100%;
+background-color: var(--color-segundaria);
+display: flex;
+justify-content: space-around;
+
+position: fixed;
+align-items: center;
+
+}
+
+.cabecalho .logo-img{
+width: 6%;
+
+}
+.cabecalho nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.cabecalho nav ul li{
+   margin: auto 20px;
+    box-sizing: border-box;
+    
+}
+.cabecalho nav ul li a{
+color: var(--color-primary);
+text-decoration: none;
+text-shadow: 1px 1px 10px  black;    
+}
+        
