@@ -60,8 +60,8 @@ main .container-img01{
     justify-content: center;
 }
 main .container-img01 h3,
-main .container-img02 h3,
-main .contatos .container-img03 h3
+main .container-img02 h3
+
 
 {
         color: var(--color-white);
@@ -82,16 +82,66 @@ align-items: center;
 
  }
 
- main .contatos .container-img03{
+ main .container-img03{
 
 background-image: url(../Imagens/parallax-imagem4.png);
-height: 100vh;
+height: 100%;
 background-attachment: fixed;
 background-size: cover;
-
- }
-
-
+box-sizing: border-box;
+}
 
 
+main .container-img03 h3{
+    color: var(--color-white);
+    font-size: 25px;
+    background-color: var(--color-segundaria);  
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 40px 0;
+    padding: 5px 30px;
+    
+}
+ 
+main .container-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    margin: 40px 0;
+}
+.contato-listas{
+    background-color: var(--color-segundaria);
+    margin: auto;
+    text-align: center;
+    width: 10   0%;
+    list-style: none;
+    font-size: 19px;
+    color: var(--color-white);
+    padding: 10px 10px;
+   line-height: 40px;
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   
+}
+.container-contato .localize-maps{
+    width: 70%;
+}
+.contato-listas a{
+    color: var(--color-white);
+    text-decoration: none;
+}
 
+.container-img04{
+
+background-image: url(../Imagens/cafeteria.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-attachment: fixed;
+}
