@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        .container{
+            border: 5px solid ;
+            width: 500px;
+            padding: 20px;
+            position: relative;
+
+        }
+        .rotulo{
+            position: absolute;
+            top: -25px;
+            left: 16px;
+            background: #fff;
+            color: #000;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .container-block{
+            width: 400px;
+            height: 400px;
+            border: 5px solid;
+            margin: 50px;
+            position: relative;
+            
+        }
+        .block1,.block2,.block3,.block4{
+            width: 100px;
+            height: 100px;
+
+            
+        }
+        .block1 
+        {
+            position: absolute;
+            background-color: red;
+            right: 0;
+}
+.block2 {
+    background-color: blue;
+
+}
+.block3 {
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+.block4 {
+    background-color: rebeccapurple;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+
+
+
+
+.container-block span{
+    font-size: 30px;
+
+}
+.container-block li{
+    position: relative;
+}
+.container-block li small{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    
+   
+   
+}
+.container-block li p{
+    position: absolute;
+    width: 250px;
+    top: 10px;
+    right: 0;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.container-block h2{
+
+    font-weight: bold;
+}
+        
+    </style>
+<div class="container">
+    <span class="rotulo">rotulo</span>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero minima officiis debitis quidem repellat iure, ducimus maiores, mollitia ea tempora quibusdam est molestias beatae consectetur sint cum iste ut.
+    </p>
+</div>
+    <div class="container-block">
+      <div class="block1"></div>  
+      <div class="block2"></div>  
+      <div class="block3"></div>  
+      <div class="block4"></div>  
+
+    </div>
+    <div class="container-block">
+        <ul class="Lista">
+            <h2>Lista De Compromissos</h2>
+            <li>
+                <span>01</span>
+                <small>Janeiro</small>
+                <p>Reuniao Com a Equipe tecnica</p>
+            </li>
+            <li>
+                <span>01</span>
+                <small>Janeiro</small>
+                <p>Reuniao Com a Equipe tecnica</p>
+            </li>
+            <li>
+                <span>01</span>
+                <small>Janeiro</small>
+                <p>Reuniao Com a Equipe tecnica</p>
+            </li>
+            <li>
+                <span>01</span>
+                <small>Janeiro</small>
+                <p>Reuniao Com a Equipe tecnica</p>
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>

@@ -145,3 +145,55 @@ background-size: cover;
 height: 100vh;
 background-attachment: fixed;
 }
+
+.horarios h2{
+    font-size: 25px;
+    
+    color: var(--color-white);
+    letter-spacing: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-sizing: border-box;
+}
+.horarios nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   height: 80vh;
+    list-style: none;
+}
+.horarios nav ul li{
+height: 40px;
+position: relative; 
+    
+}
+
+.horarios nav ul li  span{
+    color: var(--color-primary) !important;
+}
+.horarios nav ul li p,
+.horarios nav ul li  span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 17px;
+    color: var(--color-white);
+    
+}
+.horarios nav ul li h3{
+    font-size: 17px;
+    color: var(--color-white);
+}
+
+.horarios  li .tarja{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10px;
+   width: 70%;
+   height: 1px;
+   background-color: #fff;
+}
