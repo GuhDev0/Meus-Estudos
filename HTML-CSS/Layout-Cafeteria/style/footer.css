@@ -1,0 +1,25 @@
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer span{
+    color: var(--color-primary);
+}
+footer p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.btn-banner a{
+   
+    right: 50px;
+    bottom: 50px;
+    position: absolute;
+}

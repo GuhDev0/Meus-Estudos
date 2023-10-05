@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+body,html{
+    font-family: sans-serif;
+    height: 100%;
+}
+.largura.limite{
+margin: 0 auto;
+width: 100%;
+max-width: 1024px;
+}
+/*HEADER*/
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: black;
+    color: #a47209;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+nav ul li a:visited{
+    color: #a47209;
+
+}
+
+/* Conteudo Principal*/
+
+main .img-carro-banner{
+width: 100%;
+
+}
+
+main .sobre{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+main .sobre h2{
+font-weight: lighter;
+padding: 40px 0 20px 0;
+font-size: 20px;
+
+
+}
+main .sobre h3,
+aside h3
+    
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+   padding-bottom: 20px;
+}
+main .sobre img{
+    width: 35%;
+
+}
+
+main .sobre p{
+    max-width: 1024px;
+    width: 100%;
+    line-height: 30px;
+    text-align: justify;
+    margin: 40px 0 40px 0;
+}
+main .sobre span,
+aside span{
+    font-weight: bold;
+    color: #a47209;
+}
+
+
+aside{
+    padding-bottom: 50px;
+}
+aside iframe{
+   display: block;
+   margin:  auto;
+    width: 60%;
+   
+
+} 
+aside p{
+    display: block;
+    margin:  auto ;
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    width: 58%;
+    text-align: center;
+    
+    
+}
+

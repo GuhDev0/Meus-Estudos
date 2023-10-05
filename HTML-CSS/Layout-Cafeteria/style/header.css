@@ -3,7 +3,7 @@ width: 100%;
 background-color: var(--color-segundaria);
 display: flex;
 justify-content: space-around;
-
+z-index: 1;
 position: fixed;
 align-items: center;
 
