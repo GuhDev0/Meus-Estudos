@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Provedor De Hospedagem</title>
-    <link rel="stylesheet" href="./Style/reset.css">
-    <link rel="stylesheet" href="./Style/header.css">
-    <link rel="stylesheet" href="./Style/main.css">
-    <link rel="stylesheet" href="./Style/footer.css">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--   FONTE Poppins   -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <div class="topo">
+    <header >
+        <div class="topo limite-largura">
             <img src="img/logo-icone.png" alt="">
-            <h1>
-                AlfaTech
-            </h1>
-            <p>
-                Soluções em hospedagem
-            </p>
+            <div class="text-logo"> 
+                <h1>
+                    AlfaTech
+                </h1>
+                <p>
+                    Soluções em hospedagem
+                </p>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#informacoes">INFORMAÇÕES</a></li>
@@ -36,16 +39,18 @@
         </div>
     </header>
     <main>
-        <div class="banner">
-            <section class="banner-text">
-                <p>Simples - Fácil de usar - 10x mais rápido</p>
-                <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
-                <p> Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua
-                    hospedagem. </p>
-            </section>
-            <figure>
-                <img src="img/imagem-banner.png" alt="">
-            </figure>
+        <div class="banner ">
+            <div class="Conteudo-banner limite-largura">
+                <section class="banner-text limite-largura">
+                    <p>Simples - Fácil de usar - 10x mais rápido</p>
+                    <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+                    <p> Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua
+                        hospedagem. </p>
+                </section>
+                <figure>
+                    <img src="img/imagem-banner.png" alt="">
+                </figure>
+            </div>
         </div>
         <div class="anuncio">
             <div class="container-anuncio">
@@ -125,17 +130,61 @@
                         <td>1 dominio gratis</td> 
                         <td> 2 domonios gratis</td>
                         <td>2 dominios gratis </td>
-                        <td></td>
+                        <td>3 Dominios gratis</td>
                     </tr>
-                </tbody>
-                <tfoot>
-
-                </tfoot>
+                    
+                    <tr>
+                        <td>200GB SSD Espaço</td> 
+                        <td> 500GB SSD espaço</td>
+                        <td>1TB SSD Espaço </td>
+                        <td>2TB SSD espaço</td>
+                    </tr>
+                    <tr>
+                        <td>Ofertas Especiais</td> 
+                        <td>Ofertas Especiais</td> 
+                        <td>Ofertas Especiais</td> 
+                        <td>Ofertas Especiais</td> 
+                                          
+                    </tr>                    
+                    <tr>
+                        <td>Suporte ilimitado</td> 
+                        <td>Suporte ilimitado</td> 
+                        <td>Suporte ilimitado</td> 
+                        <td>Suporte ilimitado</td> 
+                        
+                    </tr>                    
+                   </tbody>
+               
             </table>
         </div>
+        <div class="anuncio">
+            <div class="container-anuncio">
+                <h3>
+                    Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!
+                </h3>
+                <a href="#">TABELA DE PREÇOS</a>
+            </div>
+        </div>
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <div class="icone-logo">
+            <img src="img/logo-icone.png" alt="">
+                <h1>
+                    AlfaTech
+                </h1>
+                <p>
+                    Soluções em hospedagem
+                </p>
+                <div class="contatos" id="contato">
+                    <paragafo> <p>Soluções em hospedagem</p>
+                        <paragrrafo> <p>Telefone & Whatsapp: (21) 99999-5555</p>
+                        <p>E-mail: suporte@alfatech.com</p>
+                        <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+                        <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+                        <p>Desenvolvido por "nome do aluno"</p>
+                    
+                </div>
+        </div>
     </footer>
 </body>
 
