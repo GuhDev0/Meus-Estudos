@@ -3,9 +3,18 @@
     background-color: var(--color-primary);
 }
 .Conteudo-banner{
-    background-color: green;
+    
     max-width: 1024px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Conteudo-banner .banner-text{
+    color: var(--color-white-Of-course);
+    padding: 20px
+}
+.Conteudo-banner .banner-text h2{
+    padding: 20px 0;
+    font-weight: 800 ;
+    width: 94%;
 }
