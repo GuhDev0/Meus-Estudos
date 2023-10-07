@@ -1,9 +1,22 @@
+:root{
+
+    --color-white-Of-course :#fff;
+     --color-white-Average: #f1f3f7;
+     --color-white-dark: #f6f6f6; 
+     --color-monday: #a89f9f;
+      --color-third: #233032;
+      --color-primary: #2f86d6;
+  
+  
+  }
+/* BANNER */
+
 .banner {
    width: 100%;
     background-color: var(--color-primary);
 }
 .Conteudo-banner{
-    
+    padding: 80px 0px;
     max-width: 1024px;
     display: flex;
     align-items: center;
@@ -17,4 +30,48 @@
     padding: 20px 0;
     font-weight: 800 ;
     width: 94%;
+}
+
+.Conteudo-banner .img-banner{
+
+width: 100%;
+
+}
+
+
+/* ANUNCIO */
+
+.anuncio{
+    background-color: var(--color-third);
+}
+.anuncio .conteudo-anuncio
+   
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center ;
+    width: 100%;
+    max-width: 1024px;
+    padding: 40px 0;
+    
+}
+
+.anuncio  .conteudo-anuncio,h3,p,a{
+    color: var(--color-white-Average);
+    
+}
+
+.anuncio .conteudo-anuncio .link-preço{
+
+background-color: var(--color-primary);
+padding: 20px 50px;
+box-sizing: border-box;
+
+}
+.anuncio .conteudo-anuncio .link-preço a{
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
 }
