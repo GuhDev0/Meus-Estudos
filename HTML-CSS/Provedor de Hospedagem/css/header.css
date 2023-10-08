@@ -10,18 +10,22 @@ display: flex;
 align-items: center;
  position: relative;  
 }
- .topo .text-logo{
+ .topo .text-logo,
+ .conteudo-rodape .rodape-text{
     padding-left: 10px;
  }
-.topo .text-logo h1{
+.topo .text-logo h1
+,.conteudo-rodape .icone-logo h1{
     font-size: 25px;
 }
-.topo .text-logo p{
+.topo .text-logo p,
+.conteudo-rodape .rodape-text p{
     font-weight: 600;
     font-size: 15px;
     color: var(--color-primary);
 }
-.topo img{
+.topo img,
+.conteudo-rodape .icone-logo img{
     width: 6%;
     
 }

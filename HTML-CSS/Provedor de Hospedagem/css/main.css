@@ -65,13 +65,176 @@ width: 100%;
 .anuncio .conteudo-anuncio .link-preço{
 
 background-color: var(--color-primary);
-padding: 20px 50px;
+padding: 15px 50px;
 box-sizing: border-box;
 
 }
+
+.anuncio ,.conteudo-anuncio .anuncio-text{
+
+    text-align: justify;
+}
+
 .anuncio .conteudo-anuncio .link-preço a{
 
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
 }
+.anuncio2{
+    background-color: var(--color-primary) !important;
+}
+.link-preço2 {
+    background-color: var(--color-third) !important;
+
+}
+.anuncio-text2{
+
+width: 40%;
+
+}
+
+/* INFORMAÇOES */
+
+.informacoes{
+margin: 100px 0;
+
+width: 100%;
+}
+.informacoes .conteudo-informacoes h2{
+
+display: block;
+margin: 50px auto ;
+width: 70%;
+color: black;
+text-align: center;
+}
+
+.informacoes .conteudo-informacoes {
+
+max-width: 1024px;
+
+}
+.informacoes .container-icon img{
+
+width: 30%;
+
+}
+
+
+.informacoes .subContainer-informacoes{
+
+display: flex;
+
+}
+.informacoes .subContainer-informacoes .container-icon
+ {
+ margin:  0 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.informacoes .subContainer-informacoes .container-icon h3{
+    padding: 20px 0;
+    color: black;
+
+}
+.informacoes .subContainer-informacoes .container-icon p{
+color: black;
+width: 100%;
+
+}
+
+
+
+/* Planos */
+.planos{
+
+
+margin-top: 100px;
+margin-bottom: 90px;
+
+}
+.conteudo-planos{
+max-width: 1024px;
+background-color: orange;
+
+}
+
+.tabela-de-planos{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: green;
+    margin: 30px;
+    
+
+}
+.tabela-de-planos img{
+
+width: 40%;
+
+}
+.tabela-de-planos  tbody th{
+    padding: 5px 0 20px;
+    font-size: 15px;
+    
+    color: var(--color-monday);
+}
+.tabela-de-planos td{
+
+
+line-height: 50px
+
+}
+
+
+/* RODAPE */
+
+
+
+.rodape .conteudo-rodape{
+    max-width: 1024px;
+    
+    text-align: center;
+    padding: 50px 0 20px 0;
+    
+
+}
+.conteudo-rodape .icone-logo{
+
+display: flex;
+justify-content: center;
+text-align:justify ;
+
+}
+.conteudo-rodape .contatos{
+
+padding: 30px 0;
+
+}
+.conteudo-rodape .contatos p {
+color: black;
+font-weight: 500;
+line-height: 40px;
+font-size: 15px;
+
+}
+.conteudo-rodape  p{
+font-size: 18px;
+font-weight: 500;
+color: black ;
+
+}
+ span{
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+
+
