@@ -69,6 +69,14 @@ padding: 15px 50px;
 box-sizing: border-box;
 
 }
+.anuncio .conteudo-anuncio .link-preço:hover,
+.anuncio2 .link-preço2:hover
+{
+transition: 0.30s;
+color: white;
+background-color: rgb(255, 222, 32) !important;
+
+}
 
 .anuncio ,.conteudo-anuncio .anuncio-text{
 
@@ -160,38 +168,53 @@ margin-bottom: 90px;
 
 }
 .conteudo-planos{
-max-width: 1024px;
-background-color: orange;
+        padding: 20px;
+        box-shadow: 0px 0px 50px  10px var(--color-primary);
+max-width: 900px; 
+background-color: var(--color-white-dark);
 
 }
-
-.tabela-de-planos{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+.planos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: center;
-    background: green;
-    margin: 30px;
+    font-size: 30px;
+}
+.tabela-de-planos{
+align-items: center;
+text-align: center;
+
+}
+
+.tabela-de-planos td img{
+
+width: 50%;
+
+}
+.tabela-de-planos thead  th{
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: black;
     
-
 }
-.tabela-de-planos img{
-
-width: 40%;
-
-}
-.tabela-de-planos  tbody th{
-    padding: 5px 0 20px;
-    font-size: 15px;
+.tabela-de-planos tbody th{
+font-size: 16px;
+padding: 10px;
+font-weight: 100;
+box-sizing: border-box;
+text-align: center;
+align-items: center;
+color: var(--color-monday);
     
-    color: var(--color-monday);
 }
-.tabela-de-planos td{
-
-
-line-height: 50px
+.tabela-de-planos td {
+color: black;
+font-weight: 430;
+line-height: 50px;
 
 }
+
 
 
 /* RODAPE */
@@ -200,7 +223,6 @@ line-height: 50px
 
 .rodape .conteudo-rodape{
     max-width: 1024px;
-    
     text-align: center;
     padding: 50px 0 20px 0;
     

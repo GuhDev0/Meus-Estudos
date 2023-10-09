@@ -1,37 +1,36 @@
 header{
     width: 100%;
-    
+    background-color: var(--color-primary);
     padding: 30px;
 }
 .topo{
-
  max-width: 1024px;
 display: flex;
 align-items: center;
  position: relative;  
 }
- .topo .text-logo,
- .conteudo-rodape .rodape-text{
+ .topo .text-logo
+ {
     padding-left: 10px;
  }
 .topo .text-logo h1
-,.conteudo-rodape .icone-logo h1{
+{
     font-size: 25px;
 }
-.topo .text-logo p,
-.conteudo-rodape .rodape-text p{
+.topo .text-logo p
+{
     font-weight: 600;
     font-size: 15px;
-    color: var(--color-primary) ;
+    color: var( --color-white-Of-course) ;
 }
-.topo img,
-.conteudo-rodape .icone-logo img{
+.topo img
+{
     width: 6%;
     
 }
 
 .topo ul {
-    display: flex;
+    
     position: absolute;
     right: 0;
     bottom: 19px;
@@ -42,7 +41,7 @@ align-items: center;
 
 .topo ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: 500;
+    color: var(--color-white-Of-course);
+    font-weight: 600;
 }
 
