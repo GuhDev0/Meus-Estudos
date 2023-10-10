@@ -1,47 +1,29 @@
-header{
+header {
+
     width: 100%;
-    background-color: var(--color-primary);
-    padding: 30px;
-}
-.topo{
- max-width: 1024px;
-display: flex;
-align-items: center;
- position: relative;  
-}
- .topo .text-logo
- {
-    padding-left: 10px;
- }
-.topo .text-logo h1
-{
-    font-size: 25px;
-}
-.topo .text-logo p
-{
-    font-weight: 600;
-    font-size: 15px;
-    color: var( --color-white-Of-course) ;
-}
-.topo img
-{
-    width: 6%;
-    
+    background-color: green;
+
 }
 
-.topo ul {
-    
-    position: absolute;
-    right: 0;
-    bottom: 19px;
-    color: black;
-    gap: 10px;
-    list-style: none;
+.limite-largura {
+    margin: 0 auto;
 }
 
-.topo ul li a{
-    text-decoration: none;
-    color: var(--color-white-Of-course);
-    font-weight: 600;
+.topo {
+    
+    
+    display: flex;
+    max-width: 1024px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.topo .img-logo {
+    
+    width: 20%;
+
+}
+.conteudo-topo{
+    display: flex;
 }
 
