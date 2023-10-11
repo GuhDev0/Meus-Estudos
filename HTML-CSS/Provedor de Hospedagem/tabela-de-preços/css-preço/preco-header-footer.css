@@ -23,7 +23,7 @@ header {
 
 .topo {
     
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     max-width: 1024px;
     
@@ -31,8 +31,8 @@ header {
 
 
 .topo .img-logo {
-    width: 80px;
-    height: 75px;
+    width: 60px;
+    height: 70px;
     margin: 20px;
 }
 .conteudo-topo{
@@ -46,6 +46,11 @@ header {
 .conteudo-topo .topo-text p{
     font-weight: 500;
     color: #fff;
+    font-size: 15px;
+}
+.conteudo-topo .topo-text h1{
+font-size: 25px;
+
 }
 
 .topo nav{
@@ -54,7 +59,7 @@ header {
 }
 .topo nav ul{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     
 }
 .topo nav ul li{
@@ -63,6 +68,7 @@ header {
 }
 .topo nav ul li a{
     color: #fff;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -72,17 +78,20 @@ header {
 /* FOOTER */
 
 .rodape{
-padding-top: 100px;
-padding-bottom: 10px   ;
-
 width: 100%;
 background-color: var(--color-primary);
 }
 .conteudo-rodape{
 max-width: 1024px;  
 text-align: center;
+padding: 50px;
 
 
+}
+.conteudo-rodape p{
+    color: var(--color-white-Average);
+    font-weight: 600;
+    
 }
 
 .rodape-logo{
@@ -107,6 +116,22 @@ text-align: center;
 }
 
 .rodape .creditos-gustavo{
-
+    padding: 15px;
+    text-align: center;
     background-color: #fff;
 }
+span{
+font-weight: 700;
+color: var(--color-primary);
+
+}
+.rodape .creditos-gustavo p{
+
+color: black;
+font-weight: 600;
+
+}
+
+
+
+

@@ -65,7 +65,7 @@ width: 100%;
 .anuncio .conteudo-anuncio .link-preço{
 
 background-color: var(--color-primary);
-padding: 15px 50px;
+padding: 15px 20px;
 box-sizing: border-box;
 
 }
@@ -100,6 +100,10 @@ background-color: rgb(255, 222, 32) !important;
 
 width: 40%;
 
+}
+.logo-foguete{
+    padding-right: 10px;
+    text-align: center;
 }
 
 /* INFORMAÇOES */
@@ -219,7 +223,11 @@ line-height: 50px;
 
 /* RODAPE */
 
+.rodape{
 
+position: relative;
+
+}
 
 .rodape .conteudo-rodape{
     max-width: 1024px;
@@ -257,6 +265,12 @@ color: black ;
     font-weight: bold;
     color: var(--color-primary);
 }
+.button-home img{
 
+position: absolute;
+right: 20px;
+top: -40px;
+
+}
 
 

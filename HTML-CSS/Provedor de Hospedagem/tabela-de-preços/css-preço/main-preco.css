@@ -1,0 +1,34 @@
+main{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.container-preco{
+padding-left: 100px;
+max-width: 1024px;
+
+}
+
+.tabela-preco thead .table-titulo-principal{
+    color: var(--color-monday);
+   font-size: 14px;
+}
+.tabela-preco thead .table-subTitulo{
+color: black;
+font-size: 30px;
+
+}
+
+.tabela-preco tbody{
+line-height: 50px;
+text-align: center;
+
+}
+.tabela-preco tbody .titulo-left{
+text-align: justify;
+font-weight: 500;
+
+}
+

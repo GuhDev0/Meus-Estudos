@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preços</title>
     <link rel="stylesheet" href="../tabela-de-preços/css-preço/reset.css">
-    <link rel="stylesheet" href="./css-preço/main-preco">
-    <link rel="stylesheet" href="css-preço/preco-header.css">
+    <link rel="stylesheet" href="./css-preço/main-preco.css">
+    <link rel="stylesheet" href="css-preço/preco-header-footer.css">
+    <link rel="shortcut icon" href="../img/logo-icone-escuro.png" type="image/x-icon">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--   FONTE Poppins   -->
@@ -47,18 +48,20 @@
         </div>
 
     </header>
-    <main>
-        <div class="tabela-preco">
-            <table>
+    <main >
+        <div class="container-preco limite-largura">
+            <table class="tabela-preco" >
                 <thead>
 
-                    <tr>
+                    <tr class="table-titulo-principal"  >
+                        <th></th>
                         <th>Pessoal</th>
                         <th>Profissional</th>
                         <th>Empresarial</th>
                         <th>Big Techs</th>
                     </tr>
-                    <tr>
+                    <tr class="table-subTitulo">
+                        <th></th>
                         <th>Gratis</th>
                         <th>R$29</th>
                         <th>R$59</th>
@@ -67,7 +70,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
+                        <td class="titulo-left">
                             MONITORAMENTO DE REDE
                         </td>
                         <td>3 Redes</td>
@@ -76,14 +79,14 @@
                         <td>50 Redes</td>
                     </tr>
                     <tr>
-                        <td>DASHBOARD</td>
+                        <td class="titulo-left">DASHBOARD</td>
                         <td>1 Dashboards</td>
                         <td>10 DashBoards</td>
                         <td>25 Dashboards</td>
                         <td>25 Dashboards</td>
                     </tr>
                     <tr>
-                        <td>USUÁRIOS</td>
+                        <td class="titulo-left">USUÁRIOS</td>
                         <td>1 Usuario</td>
                         <td>5 Usuarios</td>
                         <td>10 Usuarios</td>
@@ -91,7 +94,7 @@
                     </tr>
                     <tr>
 
-                        <td>RELATÓRIO DE ATUALIZAÇÃO</td>
+                        <td class="titulo-left">RELATÓRIO DE ATUALIZAÇÃO</td>
                         <td>Toda Hora</td>
                         <td> A Cada 30 Minutos</td>
                         <td>Quase Em Tempo Real</td>
@@ -99,85 +102,84 @@
                     </tr>
                     <tr>
 
-                        <td>RELATÓRIO DE EMAILS</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-
+                        <td class="titulo-left">RELATÓRIO DE EMAILS</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
 
-                        <td>TRANSAÇÃO ILIMITADAS</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-
+                        <td class="titulo-left">TRANSAÇÃO ILIMITADAS</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
 
-                        <td>RASTREADOR DE PAGAMENTO</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td class="titulo-left">RASTREADOR DE PAGAMENTO</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
 
-                        <td>EXPORTAÇÃO DE DADOS</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td class="titulo-left">EXPORTAÇÃO DE DADOS</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
 
-                        <td>CONVERSOR DE MOEDA</td>
+                        <td class="titulo-left">CONVERSOR DE MOEDA</td>
                         <td ></td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px"  alt=""></td>
 
                     </tr>
                     <tr>
 
-                        <td>ACESSO A API</td>
+                        <td class="titulo-left">ACESSO A API</td>
                         <td ></td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png  " width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
 
-                        <td>RESTRIÇÃO DE IP</td>
+                        <td class="titulo-left">RESTRIÇÃO DE IP</td>
                         <td ></td>
                         <td ></td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td><img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
-                        <td>FEED PERSONALIZADO</td>
+                        <td class="titulo-left">FEED PERSONALIZADO</td>
                         <td ></td>
                         <td ></td>
-                        <td class="ball-blue">*</td>
-                        <td class="ball-blue">*</td>
+                        <td > <img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
+                        <td > <img class="ball-blue" src="../img/icons8-bubble-48.png" width="15px" alt=""></td>
                     </tr>
                     <tr>
-                        <td>LIMITE DE IMPORTAÇÃO DE DADOS</td>
+                        <td class="titulo-left"> LIMITE DE IMPORTAÇÃO DE DADOS</td>
                         <td>Ultimo Ano</td>
                         <td>Ultimos 2 Anos</td>
                         <td>Ultimos 3 Anos</td>
                         <td>Ultimos 3 Anos</td>
                     </tr>
                     <tr>
-                        <td>RETENÇÃO DE DADOS</td>
+                        <td class="titulo-left">RETENÇÃO DE DADOS</td>
                         <td>Tempo De vida</td>
                         <td>Tempo De Vida</td>
                         <td>Tempo de Vida</td>
+                        <td>Tempo de Vida</td>
                     </tr>
                     <tr>
-                        <td>SUPORTE</td>
+                        <td class="titulo-left">SUPORTE</td>
                         <td>
                             Email
                         </td>
@@ -189,7 +191,7 @@
             </table>
         </div>
     </main>
-    <footer class="rodape ">
+    <footer class="rodape  ">
         <div class="conteudo-rodape  limite-largura">
                 <div class="rodape-logo">
                     
