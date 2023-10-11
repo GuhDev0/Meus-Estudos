@@ -1,7 +1,19 @@
-header {
+:root{
 
+    --color-white-Of-course :#fff;
+     --color-white-Average: #f1f3f7;
+     --color-white-dark: #f6f6f6; 
+     --color-monday: #a89f9f;
+      --color-third: #233032;
+      --color-primary: #2f86d6;
+  
+  
+  }
+
+header {
+    padding: 9px;
     width: 100%;
-    background-color: green;
+    background-color: var(--color-primary);
 
 }
 
@@ -11,19 +23,90 @@ header {
 
 .topo {
     
-    
+    justify-content: space-around;
     display: flex;
     max-width: 1024px;
-    background-color: orange;
-    padding: 10px;
+    
 }
 
-.topo .img-logo {
-    
-    width: 20%;
 
+.topo .img-logo {
+    width: 80px;
+    height: 75px;
+    margin: 20px;
 }
 .conteudo-topo{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+
+.conteudo-topo .topo-text p{
+    font-weight: 500;
+    color: #fff;
+}
+
+.topo nav{
+   display: flex;
+    align-items: center;
+}
+.topo nav ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.topo nav ul li{
+    list-style: none;
+    
+}
+.topo nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/* FOOTER */
+
+.rodape{
+padding-top: 100px;
+padding-bottom: 10px   ;
+
+width: 100%;
+background-color: var(--color-primary);
+}
+.conteudo-rodape{
+max-width: 1024px;  
+text-align: center;
+
+
+}
+
+.rodape-logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    
+}
+
+.rodape-logo img{
+
+    width: 80px;
+}
+
+.rodape-text{
+    padding: 20px;
+}
+.rodape-text p{
+    
+    color: #fff;
+}
+
+.rodape .creditos-gustavo{
+
+    background-color: #fff;
+}
