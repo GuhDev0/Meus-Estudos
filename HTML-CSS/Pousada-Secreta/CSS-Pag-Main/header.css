@@ -1,0 +1,29 @@
+.topo {
+    width: 100%;
+    padding: 20px;
+}
+.container-topo {
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-titulo h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.863);
+}
+.container-titulo span{
+    color: #799abc;
+}
+
+.container-lista {
+    text-transform: uppercase;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    list-style: none;
+}
+
+ 

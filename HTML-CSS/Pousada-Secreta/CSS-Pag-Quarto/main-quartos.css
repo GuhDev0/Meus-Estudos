@@ -1,0 +1,29 @@
+
+
+
+
+.conteudo-main .banner-quartos{
+
+   
+   height: 200px;
+
+}
+.lista-solteiro {
+    max-width: 1024px;
+    
+}
+.lista-solteiro h4{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container-lista-solteiro .lista,
+ .lista-2{
+   justify-content: space-between;
+    display: flex;
+
+    
+}
+
+
