@@ -1,0 +1,16 @@
+.top{
+    width: 100%;
+    padding: 10px;
+}
+.container-top{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}

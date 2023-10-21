@@ -1,0 +1,14 @@
+footer{
+    background-color: #f5c002;
+    padding: 12px;
+}
+footer p{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+
+.limite-largura{
+    margin: 0 auto;
+}

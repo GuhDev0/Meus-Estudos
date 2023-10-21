@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe</title>
+    <style>
+        /* HOVER */
+        .box {
+            width: 400px;
+            height: 100px;
+            background-color: blue;
+            margin: 20px;
+        }
+
+        .box:hover {
+
+            background-color: orangered;
+        }
+
+        .box p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /*  BEFORE */
+        .box1 {
+            width: 400px;
+            height: 100px;
+
+            margin: 20px;
+            text-align: center;
+        }
+
+        .box1 p::before {
+
+
+            content: " Antes do conteudo";
+            width: 20px;
+            height: 20px;
+
+
+        }
+        .box1 p::after{
+            content: " Depois do Conteudo";
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>
+            hover <br>
+            Quando passar o Mouse
+        </p>
+    </div>
+
+    <div class="box1">
+        <p>
+            BEFORE <br>
+            UM CONTEUDO ANTES DO CONTEUDO
+        </p>
+    </div>
+</body>
+
+</html>
