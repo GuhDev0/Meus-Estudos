@@ -6,3 +6,119 @@ box-sizing: border-box;
 font-family: 'Ysabeau Infant', sans-serif;
 
 }
+
+/* Banner */
+
+.container-bioNeymar video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+ .bioNeymar-banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.container-img{
+    width: 215px;
+    height: 215px;
+    border-radius: 100%;
+    background-image: url(../img/neymar.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    position: absolute;
+    left: 8px;
+    top: 7px;    
+}
+.borda-gradiente{
+background: linear-gradient(90deg, #ffdf00, #009c3b);
+width: 230px;
+height: 230px;
+margin: auto;
+border-radius: 100%;
+position: relative;
+}
+
+
+.bioNeymar-banner h1{
+    font-size: 50px;
+    text-shadow: 1px 5px 10px black;
+    padding: 20px 0;
+    position: relative;
+}
+.bioNeymar-banner h1::after{
+    content: "";
+    background-image: url(../img/verificado.png);
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.bioNeymar-banner h1::before{
+    content: "";
+   position: absolute;
+    width: 55px;
+    height: 5px;
+    background: linear-gradient(90deg, yellow, green);
+    bottom: 20px;
+}
+.banner-list-neymar{
+list-style: none;
+
+}
+
+.banner-list-neymar li a{
+    color: #fff;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px ;
+    font-weight: bold;  
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    padding: 10px 200px;
+    margin: 20px 0px;
+    text-align: justify;
+    display: flex;
+    position: relative;
+    
+    
+}
+.banner-list-neymar li .icon-list{
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    bottom: 13px;
+}
+.banner-list-neymar li .icon-youtube{
+    background-image: url(../img/youtube.png);
+}
+.banner-list-neymar li .icon-insta{
+    background-image: url(../img/instagram.png);
+}
+.banner-list-neymar li .icon-twitter{
+    background-image: url(../img/twitter.png);
+}
+.banner-list-neymar li .icon-facebook{
+    background-image: url(../img/facebook.png);
+}
+.banner-list-neymar li .icon-twitch{
+    background-image: url(../img/twitch.png);
+}
+.banner-list-neymar li a:hover{
+background-color: #fff;
+color: black;
+
+}
