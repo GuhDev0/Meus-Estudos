@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMLife - Home</title>
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+    <link rel="stylesheet"    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
         <img src="img/logo.png" alt="">
-        <nav>
+        <nav class="links-top">
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#especialidades">Especialidades</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <a href="#sobre">Sobre</a>
+                <a href="#especialidades">Especialidades</a>
+                <a href="#contato">Contato</a>
             </ul>
         </nav>
     </header>
@@ -27,13 +30,78 @@
         </p>
     </div>
     <main>
-        <section class="sobre">
-            <h2>Sobre a Clinica</h2>
-            <p>
-                Nossa Clinica Esta pronta para receber Nossos pacientes atraves de uma execelente
-            </p>
+        <section class="sobre" id="sobre">
+            <div class="container-sobre">
+                <h2>Sobre a Clinica</h2>
+                <p>
+                
+                    Nossa Clinica Esta pronta para receber Nossos pacientes atraves de uma execelente
+                    estrutura, Comodidade e com a segurança de que você precisam.
+                </p>
+                <h3>
+                    Aqui na Nossa clinica voce vai encontrar:
+                </h3>
+                <div class="container-list-img">
+                    <figure>
+                        <img src="img/medico.jpg" alt="">
+                    </figure>
+                    <nav class="list-sobre">
+                        <ul>
+                            <li>Horario Flexivel. Atendemos de segunda a sabado.</li>
+                            <li>Estacionamento amplo com 600 vagas.</li>
+                            <li>Sala de espera com TV e Wifi</li>
+                            <li>Agendamento pelo telefone ou Whatsapp</li>
+                            <li>Excelente Localização</li>
+                            <li>Entrega de exame em sua residencia</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades" id="especialidades"> 
+            <div class="container-especialidades">
+                <h3>Uma Clinica de multiespecialidade</h3>
+                <p>Nossa Clinica Possui Duversas Especialidades Como Ortopedia, pediatra,geriatria,psicologia,Fisioterapia e outros.</p>
+                <div class="especialidades-img">
+                    <figure>
+                        <img src="img/ortopedia1.png" alt="">
+                        <figcaption>Ortopedia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/pediatra.png" alt="">
+                        <figcaption>Pediatria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/geriatra.png" alt="">
+                        <figcaption>Geriatria</figcaption>
+                    </figure>
+                    <button>
+                        <a href="#">Ver Horarios</a>
+                    </button>    
+                </div>
+            </div>
+        </section>
+        <section class="Contato" id="contato">
+            <div class="container-contato">
+                <h3>
+                    contato
+                </h3>
+                <p>
+                    Nossa clinica medica Esta Aberto de <strong>Segunda a Sabado das 6:00 as 21:00</strong>
+                </p>
+                <p>
+                    Atraves do Telefone/WhatsApp (21)99966-5555 Voce Pode Fazer o Agendamento de consultas e exames
+                </p>
+                <p>
+                    Estamos localizados no Estacionamento do Vila parque Shopping <strong>av.Ayrton Senna,3000-Barra da tijuca, Rio de Janeiro</strong>
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1166797096143!2d-43.360893!3d-22.982736499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-003!5e0!3m2!1spt-BR!2sbr!4v1698864102108!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
+    <footer>
+        <img src="img/recepcao.png" alt="">
+    </footer>
 </body>
 
 </html>
