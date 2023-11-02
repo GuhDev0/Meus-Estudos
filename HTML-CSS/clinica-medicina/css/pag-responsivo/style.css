@@ -1,0 +1,74 @@
+@media (max-width: 415px) {
+*{
+    padding: 0;
+    margin: 0;
+}
+    /* header */
+    .container-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 414px;
+
+
+    }
+
+    .container-top img {
+        margin: auto;
+
+    }
+
+    .container-top .links-top {
+        padding: 10px 20px 10px 0px;
+        border-top: 1px solid rgba(0, 0, 0, 0.315);
+
+    }
+
+    /* banner */
+
+    .banner {
+
+        width: 100%;
+        height: 50vh;
+       
+
+    }
+
+    .banner p {
+        font-size: 30px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        
+
+
+    }
+    /* MAIN */
+    .container-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+    .container-principal .container-list-img img{
+        display: none  ;
+    }
+    .especialidades-img{
+        flex-direction: column;
+        display: flex;
+    }
+    .list-sobre{
+        padding-right: 100px;
+        line-height: 20px;
+        box-sizing: border-box;
+    }
+    .list-sobre ul  li {
+
+        text-align: center;
+    }
+
+}

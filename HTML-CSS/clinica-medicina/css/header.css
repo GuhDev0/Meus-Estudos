@@ -1,0 +1,23 @@
+.top{
+
+width: 100%;
+background-color: #00cad1;
+
+}
+.container-top{
+max-width: 1024px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.container-top img{
+    display: flex;
+    width: 60%;
+}
+.links-top a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+}

@@ -9,3 +9,15 @@ body{
 
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.limite-largura{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.limite-margin{
+
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}

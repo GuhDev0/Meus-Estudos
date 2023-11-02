@@ -1,0 +1,11 @@
+.rodape{
+background-color: #0C6E71;
+width: 100%;
+text-align: center;
+padding: 20px;
+}
+.container-rodape p {
+    line-height: 40px;
+    color: #fff;
+
+}
