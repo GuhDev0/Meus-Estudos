@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <span>Questionario</span>
+        </header>
+        <main>
+            <h1>
+                Questionario
+            </h1>
+            <p>
+                Responda o Questionario
+            </p>
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula5/">
+                <div class= "categoria categoria-plataforma">
+                <h2>
+                    Quais plataformas de jogos você utiliza?
+                </h2>
+
+                    <div class="grupo-opcao">
+                        <input type="checkbox" name="plataformas[]" id="check-box" value="Xbox">
+                        <label for="check-box">Xbox</label>
+                    </div>
+                    <div class="grupo-opcao">
+                        <input type="checkbox" name="plataformas[]" id="check-psn" value="plastation">
+                        <label for="check-psn">plastation</label>
+                    </div>
+                    <div class="grupo-opcao">
+                        <input type="checkbox" name="plataformas[]" id="check-switch" value="Switch">
+                        <label for="check-switch">Switch</label>
+                    </div>
+
+                    <div class="categoria  categoria-genero">
+                        <h2>Quais seus gêneros de jogo preferidos?</h2>
+
+                        <div class="grupo-opcao">
+                            <input type="checkbox" name="genero[]" id="check-acao" value="Acao">
+                            <label for="check-acao">Ação</label>
+                        </div>
+
+                        <div class="grupo-opcao">
+                            <input type="checkbox" name="genero[]" id="check-aventura" value="Aventura">
+                            <label for="check-aventura">Aventura</label>
+                        </div>
+
+                        <div class="grupo-opcao">
+                            <input type="checkbox" name="genero[]" id="check-plataforma" value="plataforma">
+                            <label for="check-plataforma">Plataforma</label>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <button type="submit">
+                    Enviar Questionario
+                </button>
+            </form>
+        </main>
+</body>
+</html>
