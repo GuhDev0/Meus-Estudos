@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.limite-largura{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1,h2{
+
+    color: #fff;
+    margin: 0;
+}
+
+/* HEADER */
+.container-topo{
+
+    border-bottom: 1px solid #d5d5d5;
+}
+.container-topo P{
+
+font-size: 22px;
+padding: 20px;
+font-weight: bold;
+box-sizing: border-box;
+
+}
+
+/* Banner */
+
+.banner{
+min-height: 500px;
+background-image: url(../img/capa.jpg);   
+background-size: cover; 
+}
+
+.banner-conteudo{
+    padding: 50px 20px;
+    text-align: end;
+    background-color: #00000069;
+}
+
+/* Sobre A Empresa */
+
+.secao-conteudo{
+
+    padding: 50px 20px;
+    
+}
+.secao-conteudo-sobre p{
+    padding: 10px 0;
+}
+.secao-conteudo-sobre span{
+    font-size: 16px;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.secao-conteudo-sobre img{
+    height: 180px;
+   width: 250px; 
+   object-fit: contain;
+
+}
+
+
+/* DIVISAO CONTATO */
+
+.divisao-contato{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #d92121;
+}
+.divisao-contato p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    background-color: #6c0000;
+}
+
+
+/* FORMULARIO */
+
+.secao-conteudo legend{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.grupo-campo{
+
+display: flex;
+flex-direction: column;
+margin: 0 20px;
+
+}
+.grupo-campo input,.grupo-campo select{
+
+    margin: 12px 0;
+    height: 30px;
+} 
+.secao-conteudo fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+}
+.btn-formulario{
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: #d92121;
+}
+
+/* FOOTER */
+
+footer{
+
+    text-align: center;
+    height: 40px;
+    color: #d92121;
+}
+
+
+@media(max-width: 815px){
+
+    img{
+        width: 100%;
+    }
+}

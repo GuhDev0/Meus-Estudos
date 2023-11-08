@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluCar</title>
+    <link rel="stylesheet" href=".css/style.css">
+</head>
+
+<body>
+    <header class="topo">
+        <div class="container-topo ">
+            <p class="limite-largura">
+                AluCar
+            </p>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-conteudo">
+            <div class="limite-largura banner-text">
+                <h1>AluCar</h1>
+                <h2>Aluguel de Carros</h2>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="limite-largura secao-conteudo">
+            <h3>
+                Sobre nós
+            </h3>
+            <p>
+                Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação.
+                Temos os melhores preços e modelos do mercado.
+
+            </p>
+            <div class="list-img">
+                <img src="img/img1.jpg" alt="">
+                <img src="img/img2.jpg" alt="">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <p><span>O compromisso da AluCar é com a qualidade.</span></p>
+            <p><span>Os melhores carros estão aqui!</span></p>
+            <p><span>Assistência 24hrs.</span></p>
+        </div>
+    </section>
+    <div class="divisao-contato">
+            <p>
+                Contato
+            </p>
+    </div>
+    <main>
+        <section class="limite-largura secao-conteudo">
+            <h3>
+                Analise de Cadastro
+            </h3>
+            <p>
+                Preencha os campos abaixo e analisaremos seus dados. <br>
+                Se tudo estiver correto ligaremos para marcar uma visita sua à loja.
+            </p>
+            <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+            
+                        <div class="grupo-campo">
+                            <label for="name">Nome</label>
+                            <input type="text" name="nome" id="name" required placeholder="Digite Seu Nome">
+                        </div>
+                        <div class="grupo-campo">
+                            <label for="date">Data de Nascimento</label>
+                            <input type="date" name="data-de-nascimento" id="date" required min="2004.01.01" >
+                        </div>
+                        <div class="grupo-campo">
+                            <label for="tel">Telefone</label>
+                            <input type="tel" name="telefone" id="tel" required placeholder="(XX)XXXX-XXXX">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>CNH</legend>
+                    <div class="grupo-campo">
+                        <label for="cnh">Numero do Registro</label>
+                        <input type="number" name="numero_registro"
+                        placeholder="Infomre o Numero da Sua CNH" required >
+                    </div>
+                    <div class="grupo-campo">
+                        <label for="vali">Validade</label>
+                        <input type="date" name="validade" id="vali"  required >
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Carro
+                    </legend>
+                    <div class="grupo-campo">
+                        <label for="car" >Modelo do Carro</label>
+                        <select name="carro" id="car" >
+                            <option value="" selected>Escolha o Carro</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <button class="btn-formulario" type="submit">
+                    Enviar dados
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2022 - AluCar</p>
+    </footer>
+</body>
+
+</html>

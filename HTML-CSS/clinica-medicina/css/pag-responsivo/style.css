@@ -1,8 +1,5 @@
 @media (max-width: 415px) {
-*{
-    padding: 0;
-    margin: 0;
-}
+
     /* header */
     .container-top {
         display: flex;
@@ -29,7 +26,7 @@
     .banner {
 
         width: 100%;
-        height: 50vh;
+        height: 200px;
        
 
     }
@@ -46,13 +43,18 @@
 
     }
     /* MAIN */
+    .conteudo-principal{
+
+        overflow-x: auto;
+    }
     .container-principal{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        position: relative;
+        position: relative;  
+
     }
     .container-principal .container-list-img img{
         display: none  ;
@@ -60,15 +62,45 @@
     .especialidades-img{
         flex-direction: column;
         display: flex;
+        width: 800px;
     }
     .list-sobre{
         padding-right: 100px;
-        line-height: 20px;
+        line-height: 30px;
         box-sizing: border-box;
     }
     .list-sobre ul  li {
 
         text-align: center;
     }
+.container-contato iframe{
 
+    width: 350px;
 }
+}
+
+
+@media (max-width:768px){
+    .conteudo-principal{
+
+        overflow-x: auto;
+    }
+}
+    .banner {
+       background-size: cover;
+        height: 300px;
+        width: 100%;
+        
+    }
+    .banner p{
+        height: 100%;
+        width: 100%;
+        
+        box-sizing: border-box;
+
+    }
+    .especialidades-img{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
