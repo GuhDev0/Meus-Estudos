@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+.limite-largura{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}

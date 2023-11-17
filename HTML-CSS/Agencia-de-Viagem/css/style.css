@@ -1,0 +1,144 @@
+/* HEADER */
+.top {
+    width: 100%;
+    padding: 15px 0;
+
+
+}
+
+.container-top {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-top img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.container-top p {
+    font-family: 'Raleway', sans-serif;
+    color: #5d15d1;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* BANNER/FORMULARIO */
+
+.formulario {
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    background-image: url(../img/bahia.jpg);
+
+}
+.container-formulario h3{
+padding: 20px 0;
+font-size: 25px;
+font-weight: bold;
+        
+}
+
+.formulario .container-formulario {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    
+}
+
+.titulo-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d15d1;
+    
+
+}
+
+.titulo-formulario h1 {
+    font-size: 20px;
+    
+    color: #fff;
+}
+
+.titulo-formulario img {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    transform: rotate(-45deg);
+}
+
+.container-formulario form{      
+    background-color: #fff;
+    padding: 0 25px;
+
+} 
+.container-formulario  .grupo-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.container-formulario  .grupo-form input {
+    height: 30px;
+    
+}
+.container-formulario  .grupo-form  label,
+select{
+    font-size: 16px;
+    padding: 8px 0;
+    
+}
+.form-duplo{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.radio{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.radio div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.radio label{
+    margin: 0 0 0 8px;
+   padding: 10px 0;
+}
+
+
+.container-formulario button{
+
+    width: 160px;
+    height: 32px;
+    border: none;
+    background-color: #5d15d1;
+    font-size: 16px;
+    color: #fff;
+    margin: 12px 0 20px 0 ;
+    cursor: pointer;
+}
+
+/* OFERTA */        
+
+ h2{
+    padding: 15px 0 18px 0 ;
+}
+.container-ofertas .container-img-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-ofertas .container-img-ofertas img{
+    width: 250px;
+    height: 250px;
+
+}
