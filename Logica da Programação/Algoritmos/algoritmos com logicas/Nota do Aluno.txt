@@ -1,0 +1,21 @@
+Passo 1: Peça para o usuário digitar a primeira nota do aluno.
+Passo 2: Verifique se o usuário digitou a primeira nota.
+    Passo 2.1: Se ele digitou, guarde a primeira nota do aluno.
+    Passo 2.2: Senão voltar para o Passo 1.
+
+Passo 3: Peça para o usuário digitar a segunda nota do aluno.
+Passo 4: Verifique se o usuário digitou a segunda nota.
+    Passo 4.1: Se ele digitou, guarde a segunda nota do aluno.
+    Passo 4.2: Senão voltar para o Passo 3.
+
+Passo 5: Peça para o usuário digitar a média da escola.
+Passo 6: Verifique se o usuário digitou a média da escola
+    Passo 6.1: Se ele digitou, guarde a média da escola.
+    Passo 6.2: Senão voltar para o Passo 5.
+
+Passo 7: Calcule a média do aluno ( (primeira + segunda nota) / 2).
+Passo 8: Guarde a média do aluno.
+
+Passo 9: Verifique se o aluno passou de ano (média do aluno >= média da escola)
+    Passo 9.1: Se for diga que o aluno passou
+    Passo 9.2: Senão diga que foi reprovado.

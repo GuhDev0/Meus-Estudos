@@ -1,0 +1,20 @@
+Como Instalar o ReadLine
+
+Entrar No PrompComando/Node
+Ir ate a Pasta Que Fara a importação do readLine
+Digite o Seguinte Comando "npm init -y"
+
+Ele Criara uma Pasta Automaticamento  "package.json"
+
+Em Seguida Digite o siguinte Comando npm install readline-sync
+Pronto Instalamos o ReadLine Dentro do Projeto
+
+Como Configurar 
+
+Abra o "package.json" 
+adiocione o "type":"module"; 
+
+Pronto.
+
+
+importa no visual code import entradaDados from 'readline-sync';

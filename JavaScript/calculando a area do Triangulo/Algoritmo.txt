@@ -1,0 +1,6 @@
+Calculo Area do Triangulo
+
+1-Usuario Informa Base
+2-Usuario Informa a Altura
+3-Sistema Calcula a Area Utilizando os Dados Informados
+4-o Sistema Mostra o Resultado na Tela
