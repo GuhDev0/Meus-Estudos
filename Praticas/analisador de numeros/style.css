@@ -1,0 +1,48 @@
+body {
+    width: 100vw;
+
+    background-color: #4387d8;
+}
+
+main {
+    max-width: 1203px;
+    margin: auto;
+}
+
+header h1,footer {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding:  20px 10px ;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+section label{
+    font-size: 20px;
+    
+}
+section div {
+    margin: 10px 0 ;
+}
+section input{
+    box-sizing: border-box;
+    width: 60%;
+}
+section input.btn{
+    width: 12%;
+}
+#flista{
+    width: 150px;
+    margin: 20px 0;
+}
+footer{
+    
+    font-size: 22px;
+    font-weight: bold;
+}

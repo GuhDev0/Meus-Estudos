@@ -1,0 +1,9 @@
+Calculador de Juros
+
+1- Usuario Informa o Valor Devido
+
+2-Usuario Informa os Dias perdidos Depois do Vencimento
+
+3- fazer o calculo valor devido x taxa x DiasPeridos
+
+4- entregar o resultado na tela

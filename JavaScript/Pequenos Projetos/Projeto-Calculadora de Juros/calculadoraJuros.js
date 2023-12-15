@@ -6,6 +6,7 @@ let dezPorcento = 0.1;
 let cincoPorcento = 0.05;
 let valorDevido = EntradaDados.question("Informe o Valor Devido: ")
 
+
 if(valorDevido > 0){
     let  diasPerdidos = EntradaDados.question("Informe Quantos Dias Passaram desde do Vencimento: ");
     

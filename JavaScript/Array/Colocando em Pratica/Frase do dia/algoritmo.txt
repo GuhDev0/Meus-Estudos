@@ -1,0 +1,6 @@
+Contator de frase do dia
+
+-guarda as frases
+-preciso pegar data atual que estamos
+-preciso pega o dia atual do ano
+-imprima na tela
