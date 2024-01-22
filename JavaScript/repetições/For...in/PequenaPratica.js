@@ -11,7 +11,7 @@ for (contador = 0;contador < filmes.length ; contador++ ){
 
 let filme = filmes[contador];
  
-for(let propriedade in filme){
+for(let propriedade in filmes){
     if(propriedade == "preco"){
         let preco = propriedade
         let novo_preço = filme[preco] - desconto;

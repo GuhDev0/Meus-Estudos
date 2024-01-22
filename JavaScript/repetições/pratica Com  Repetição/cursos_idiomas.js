@@ -7,7 +7,7 @@ let cursos_idiomas = [
 ];
 
 
-for(let cursos of cursos_idiomas){
+for(let cursos of cursos_idiomas){  
 
     let nome_curso = cursos.nome;
     let preco_curso = cursos.preco;
