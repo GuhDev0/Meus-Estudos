@@ -36,6 +36,7 @@ if (Number(escolha) == 1) {
         let ano = dadosSalario.ano
         let salario = dadosSalario.salario
         let salarioFormatado = salario.toFixed(2).replace(".",",")
+        
         console.log(`Ano:${ano}`)
         console.log(`Salario: ${salarioFormatado} \n`)
 

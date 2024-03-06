@@ -1,4 +1,4 @@
-let funcionarios = [  // aqui crie uma array com os Registro do Funcionario Habilitados
+let funcionarios = [  // aqui crie uma Objeto com os Registro do Funcionario Habilitados
 
     {id:1, nome:"Gustavo", habilitado: false},
     {id:2, nome:"Lucas", habilitado: false},
